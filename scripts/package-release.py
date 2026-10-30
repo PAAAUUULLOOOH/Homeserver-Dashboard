@@ -21,8 +21,8 @@ def main():
     if not runtime.is_file() or hashlib.sha256(runtime.read_bytes()).hexdigest()!=RUNTIME_SHA:
         raise SystemExit('Passende Laufzeit fehlt oder Prüfsumme ungültig.')
     names=subprocess.check_output(['git','ls-files','-z'],cwd=ROOT).decode().split('\0')
-    paths=[ROOT/name for name in names if name]
-    paths.append(runtime)
+    paths=[ROOT/name for name in names if name and not name.startswith('downloads/')]
+    if runtime not in paths:paths.append(runtime)
     args.output.mkdir(parents=True,exist_ok=True)
     archive=args.output/NAME
     checks=[]

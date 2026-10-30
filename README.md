@@ -1,6 +1,6 @@
 # Vitalux Homeserver · 0.10.0 Testpaket
 
-**[Vollständiges Test-ZIP herunterladen](https://github.com/PAAAUUULLOOOH/Homeserver-Dashboard/releases/download/v0.10.0-test/Vitalux-Homeserver-v0.10.0-Test-linux-x86_64.zip)** · [Release mit Prüfsummen und Laufzeit](https://github.com/PAAAUUULLOOOH/Homeserver-Dashboard/releases/tag/v0.10.0-test)
+**[Vollständiges Test-ZIP herunterladen](https://github.com/PAAAUUULLOOOH/Homeserver-Dashboard/raw/refs/heads/main/downloads/Vitalux-Homeserver-v0.10.0-Test-linux-x86_64.zip)** · [Datei und Prüfsumme im Repository](https://github.com/PAAAUUULLOOOH/Homeserver-Dashboard/tree/main/downloads)
 
 Eigenständige Testversion für **Ubuntu/Debian mit Docker, Linux x86_64**. Es wird nichts in eine vorhandene Vitalux-Installation eingebaut. Kein Systeminstaller und kein Autostartdienst. Entpacken und eines der Startskripte ausführen.
 
@@ -14,7 +14,7 @@ Eigenständige Testversion für **Ubuntu/Debian mit Docker, Linux x86_64**. Es w
 
 Die erste Ausführung entpackt die **bereits mitgelieferte** Laufzeit lokal. Python 3.12, PySide6 6.12, psutil und die ergänzenden XCB-Bibliotheken sind enthalten. Keine pip-Installation und kein Laufzeitdownload erforderlich. Docker Engine und der Docker-Befehl müssen auf dem Host bereits verfügbar sein; dein Benutzer benötigt Zugriff auf den lokalen Docker-Socket. Das Paket ändert dafür keine Gruppen oder Systemdienste.
 
-Das gilt für das oben verlinkte **vollständige Test-ZIP**. Ein Git-Checkout oder GitHubs automatisch erzeugtes „Source code (zip)“ enthält die Binärlaufzeit nicht. Dort lädt das Startskript sie beim ersten Start vom zugehörigen GitHub-Release und prüft ihre feste SHA256-Prüfsumme. Danach ist die Laufzeit lokal vorhanden.
+Das oben verlinkte **vollständige Test-ZIP** enthält die Laufzeit bereits. Sie liegt außerdem unter `portable-runtime/` im Repository und ist somit auch bei einem Git-Checkout enthalten. Sollte die Datei lokal fehlen, kann das Startskript sie aus demselben Repository nachladen. Vor dem Entpacken wird ihre feste SHA256-Prüfsumme geprüft. Das Test-ZIP unter `downloads/` ist die empfohlene fertig vorbereitete Distribution.
 
 Beim ersten Start ein eigenes Administratorpasswort mit mindestens zwölf Zeichen einrichten. Benutzername: **admin**. Die native App fragt das Passwort ebenfalls ab.
 

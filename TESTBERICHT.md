@@ -1,6 +1,6 @@
 # Testbericht · 0.10.0 Testpaket
 
-Prüfstand: 30. Oktober 2026. Entwicklung und Tests erfolgten in einem separaten Arbeitsordner. Das vorhandene Vitalux-Checkout wurde nicht verändert. Kein Systemdienst und keine Installation auf dem Homeserver des Benutzers. Die Distribution erfolgt als Quellcode-Repository und vollständiges GitHub-Release-ZIP.
+Prüfstand: 30. Oktober 2026. Entwicklung und Tests erfolgten in einem separaten Arbeitsordner. Das vorhandene Vitalux-Checkout wurde nicht verändert. Kein Systemdienst und keine Installation auf dem Homeserver des Benutzers. Die Distribution erfolgt als Quellcode-Repository mit vollständig vorbereitetem Test-ZIP unter downloads/.
 
 ## Bestanden
 

@@ -1,7 +1,7 @@
 Vitalux Homeserver · 0.10.0 TESTPAKET
 
 Vollständiges Testpaket:
-https://github.com/PAAAUUULLOOOH/Homeserver-Dashboard/releases/tag/v0.10.0-test
+https://github.com/PAAAUUULLOOOH/Homeserver-Dashboard/tree/main/downloads
 
 1. In einen neuen Ordner entpacken.
 2. Terminal in diesem Ordner öffnen.
@@ -11,7 +11,7 @@ https://github.com/PAAAUUULLOOOH/Homeserver-Dashboard/releases/tag/v0.10.0-test
 5. Webmodus: http://127.0.0.1:8765 öffnen.
 
 Python, Qt/PySide6 und psutil sind für Linux x86_64 mitgeliefert.
-Bei Git-Checkouts wird die Laufzeit beim ersten Start vom Release nachgeladen.
+Die vorbereitete Laufzeit liegt auch unter portable-runtime/ im Repository.
 Docker muss auf dem Host bereits laufen. Prüfung: bash PRUEFEN.sh
 Keine Systeminstallation, kein Autostartdienst, kein Einbau in Vitalux.
 

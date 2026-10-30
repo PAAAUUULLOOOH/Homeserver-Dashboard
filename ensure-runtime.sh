@@ -11,10 +11,10 @@ if [[ -f runtime/bin/python3.12 ]]; then
 fi
 archive=portable-runtime/vitalux-linux-x86_64.tar.xz
 expected=194c62824f26239a7460c7bc12f4627eda0b616cf31b0cf861b963121081f3c8
-url=https://github.com/PAAAUUULLOOOH/Homeserver-Dashboard/releases/download/v0.10.0-test/vitalux-linux-x86_64.tar.xz
+url=https://raw.githubusercontent.com/PAAAUUULLOOOH/Homeserver-Dashboard/main/portable-runtime/vitalux-linux-x86_64.tar.xz
 if [[ ! -f "$archive" ]]; then
   mkdir -p portable-runtime
-  echo 'Vorbereitete Laufzeit vom GitHub-Release herunterladen …'
+  echo 'Fehlende vorbereitete Laufzeit aus dem GitHub-Repository herunterladen …'
   if command -v curl >/dev/null 2>&1; then
     curl --fail --location --retry 3 --connect-timeout 15 --output "$archive.partial" "$url"
   elif command -v wget >/dev/null 2>&1; then

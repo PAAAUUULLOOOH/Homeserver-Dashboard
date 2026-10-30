@@ -12,5 +12,5 @@
   ],
   "repository": "https://github.com/PAAAUUULLOOOH/Homeserver-Dashboard",
   "release_tag": "v0.10.0-test",
-  "distribution": "github-release"
+  "distribution": "github-repository"
 }

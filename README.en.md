@@ -1,8 +1,8 @@
 # Vitalux Homeserver 0.10.0 test package
 
-Independent local test build for Ubuntu/Debian with Docker on Linux x86_64. It does not modify an installed Vitalux, register a service or publish a website. Download the [complete test ZIP](https://github.com/PAAAUUULLOOOH/Homeserver-Dashboard/releases/download/v0.10.0-test/Vitalux-Homeserver-v0.10.0-Test-linux-x86_64.zip) from the [GitHub release](https://github.com/PAAAUUULLOOOH/Homeserver-Dashboard/releases/tag/v0.10.0-test).
+Independent local test build for Ubuntu/Debian with Docker on Linux x86_64. It does not modify an installed Vitalux, register a service or publish a website. Download the [complete test ZIP](https://github.com/PAAAUUULLOOOH/Homeserver-Dashboard/raw/refs/heads/main/downloads/Vitalux-Homeserver-v0.10.0-Test-linux-x86_64.zip) or inspect the [download folder and checksum](https://github.com/PAAAUUULLOOOH/Homeserver-Dashboard/tree/main/downloads).
 
-The complete release ZIP includes the runtime. A Git checkout or GitHub's generated source archive downloads the pinned runtime from the same release on first launch and verifies its SHA256 before extracting it.
+The complete test ZIP includes the runtime. The runtime archive is also tracked under `portable-runtime/` in this repository. If it is missing locally, the launcher downloads it from the same repository and verifies its fixed SHA256 before extracting it.
 
 Extract into a new writable folder. Run `bash PRUEFEN.sh` to check prerequisites, then `bash START-APP.sh` for the native desktop UI or `bash START-UBUNTU.sh` for a headless server. The first launch extracts the bundled Python 3.12, PySide6 6.12, psutil and XCB runtime. Docker Engine and local Docker-socket access must already be available. Create your own admin password of at least twelve characters. Web mode uses http://127.0.0.1:8765 and user `admin`.
 
