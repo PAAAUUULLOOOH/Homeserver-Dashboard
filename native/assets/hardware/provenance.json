@@ -1,0 +1,7 @@
+{
+  "source": "https://github.com/pciutils/pciids",
+  "snapshot": "2026.10.24",
+  "sha256": "c536d82778aaafb7344204239a806fb89d13138467aae4c3d22125fe02d482a0",
+  "copyright": "Martin Mares and Albert Pool",
+  "license": "GPL-2.0-or-later; source data included verbatim; see licenses/GPL-2.0.txt"
+}

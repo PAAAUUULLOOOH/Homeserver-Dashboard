@@ -1,0 +1,414 @@
+{
+  "schema": 1,
+  "source_version": "0.9.6.3-unstable.22",
+  "presets": {
+    "dark": {
+      "title": "Dark",
+      "palette": {
+        "bg": "#090f1a",
+        "sidebar": "#0d1725",
+        "card": "#162235",
+        "border": "#2c4157",
+        "track": "#26344a",
+        "grid": "#26384d",
+        "text": "#f0f6ff",
+        "muted": "#adbed0",
+        "title": "Dark",
+        "accent": "#4f8cff",
+        "secondary": "#f84ee4",
+        "series": [
+          "#4f8cff",
+          "#f84ee4",
+          "#2dd4bf",
+          "#a78bfa"
+        ]
+      },
+      "background": "backgrounds/dark.png"
+    },
+    "light": {
+      "title": "Light",
+      "palette": {
+        "bg": "#f3f7fc",
+        "sidebar": "#e9eff7",
+        "card": "#ffffff",
+        "border": "#c6d4e3",
+        "track": "#dbe5ef",
+        "grid": "#e2eaf3",
+        "text": "#192c42",
+        "muted": "#60728a",
+        "title": "Light",
+        "accent": "#467ce2",
+        "secondary": "#b83aa9",
+        "series": [
+          "#467ce2",
+          "#b83aa9",
+          "#2dd4bf",
+          "#a78bfa"
+        ]
+      },
+      "background": "backgrounds/light.png"
+    },
+    "glass": {
+      "title": "Glass",
+      "palette": {
+        "bg": "#090f1b",
+        "sidebar": "#101b2c",
+        "card": "#18283c",
+        "border": "#47718e",
+        "track": "#27394f",
+        "grid": "#2b405a",
+        "text": "#f1f7ff",
+        "muted": "#b3c5da",
+        "title": "Glass",
+        "accent": "#4f8cff",
+        "secondary": "#f84ee4",
+        "series": [
+          "#4f8cff",
+          "#f84ee4",
+          "#2dd4bf",
+          "#a78bfa"
+        ]
+      },
+      "background": "backgrounds/glass.png"
+    },
+    "black_glass": {
+      "title": "Black Glass",
+      "palette": {
+        "bg": "#050506",
+        "sidebar": "#0b0c0f",
+        "card": "#141518",
+        "border": "#454950",
+        "track": "#25262b",
+        "grid": "#303239",
+        "text": "#f3f3f6",
+        "muted": "#b9b9bf",
+        "title": "Black Glass",
+        "accent": "#4f8cff",
+        "secondary": "#f84ee4",
+        "series": [
+          "#4f8cff",
+          "#f84ee4",
+          "#2dd4bf",
+          "#a78bfa"
+        ]
+      },
+      "background": "backgrounds/black_glass.png"
+    },
+    "black_glass_gold": {
+      "title": "Black Glass Gold",
+      "palette": {
+        "bg": "#050504",
+        "sidebar": "#100e0b",
+        "card": "#16130f",
+        "border": "#9a783a",
+        "track": "#3d3120",
+        "grid": "#574326",
+        "text": "#fbe8b8",
+        "muted": "#d0b984",
+        "title": "Black Glass Gold",
+        "accent": "#f3cd79",
+        "secondary": "#ffe4a2",
+        "series": [
+          "#f3cd79",
+          "#ffe4a2",
+          "#2dd4bf",
+          "#a78bfa"
+        ]
+      },
+      "background": "backgrounds/black_glass_gold.png"
+    },
+    "holographic": {
+      "title": "Holographic",
+      "palette": {
+        "bg": "#030b13",
+        "sidebar": "#071421",
+        "card": "#091826",
+        "border": "#236282",
+        "track": "#163144",
+        "grid": "#1b4154",
+        "text": "#e9faff",
+        "muted": "#9cbdd1",
+        "title": "Holographic",
+        "accent": "#52d3ff",
+        "secondary": "#c850f8",
+        "series": [
+          "#52d3ff",
+          "#c850f8",
+          "#2dd4bf",
+          "#a78bfa"
+        ]
+      },
+      "background": "backgrounds/holographic.png"
+    },
+    "minimal": {
+      "title": "Minimalistisch",
+      "palette": {
+        "bg": "#111315",
+        "sidebar": "#191b1d",
+        "card": "#222528",
+        "border": "#35393d",
+        "track": "#373c41",
+        "grid": "#32363a",
+        "text": "#ecedef",
+        "muted": "#b3b6ba",
+        "title": "Minimalistisch",
+        "accent": "#4f8cff",
+        "secondary": "#f84ee4",
+        "series": [
+          "#4f8cff",
+          "#f84ee4",
+          "#2dd4bf",
+          "#a78bfa"
+        ]
+      },
+      "background": "backgrounds/minimal.png"
+    },
+    "obsidian_gold": {
+      "title": "Obsidian Gold",
+      "palette": {
+        "title": "Obsidian Gold",
+        "subtitle": "SMOKED GLASS / BRUSHED GOLD",
+        "bg": "#08090c",
+        "sidebar": "#0d0e12",
+        "card": "#16171c",
+        "border": "#706044",
+        "track": "#35312a",
+        "grid": "#302e2d",
+        "text": "#faf4e8",
+        "muted": "#b9afa0",
+        "accent": "#e5c17b",
+        "secondary": "#fff0c8",
+        "light": "#c69b55",
+        "bloom": "#725435",
+        "shadow": "#111726",
+        "series": [
+          "#e5c17b",
+          "#f7eed8",
+          "#b18c56",
+          "#9aa8b8"
+        ]
+      },
+      "background": "backgrounds/obsidian_gold.png"
+    },
+    "aether_glass": {
+      "title": "Aether Glass",
+      "palette": {
+        "title": "Aether Glass",
+        "subtitle": "OPTICAL GLASS / PLATINUM",
+        "bg": "#080b19",
+        "sidebar": "#11172c",
+        "card": "#161b35",
+        "border": "#777fae",
+        "track": "#282d4b",
+        "grid": "#2b3150",
+        "text": "#f2f0ff",
+        "muted": "#bbc0db",
+        "accent": "#b7a6ff",
+        "secondary": "#6cddf7",
+        "light": "#5251a9",
+        "bloom": "#316aa4",
+        "shadow": "#10132d",
+        "series": [
+          "#b7a6ff",
+          "#6cddf7",
+          "#ece8ff",
+          "#a6b9ce"
+        ]
+      },
+      "background": "backgrounds/aether_glass.png"
+    },
+    "eclipse_crystal": {
+      "title": "Eclipse Crystal",
+      "palette": {
+        "title": "Eclipse Crystal",
+        "subtitle": "BLACK CRYSTAL / CHAMPAGNE",
+        "bg": "#08090b",
+        "sidebar": "#101113",
+        "card": "#151617",
+        "border": "#89785e",
+        "track": "#302d27",
+        "grid": "#35312c",
+        "text": "#fff3df",
+        "muted": "#c3b8a7",
+        "accent": "#efc68d",
+        "secondary": "#f4a86e",
+        "light": "#9e7548",
+        "bloom": "#4d3728",
+        "shadow": "#101012",
+        "series": [
+          "#efc68d",
+          "#f4a86e",
+          "#e1d9cb",
+          "#a8a6a2"
+        ]
+      },
+      "background": "backgrounds/eclipse_crystal.png"
+    },
+    "nebula_prism": {
+      "title": "Nebula Prism",
+      "palette": {
+        "title": "Nebula Prism",
+        "subtitle": "PRISMATIC GLASS / DEEP SPACE",
+        "bg": "#05060f",
+        "sidebar": "#0a0c1d",
+        "card": "#0f1227",
+        "border": "#5560a8",
+        "track": "#1c2040",
+        "grid": "#252a55",
+        "text": "#f5f7ff",
+        "muted": "#a8b0d8",
+        "accent": "#5ef0ff",
+        "secondary": "#ff6ad5",
+        "light": "#3a2bd6",
+        "bloom": "#b03cff",
+        "shadow": "#0b0a2b",
+        "series": [
+          "#5ef0ff",
+          "#ff6ad5",
+          "#a78bfa",
+          "#ffd36a",
+          "#7dffb0"
+        ]
+      },
+      "background": "backgrounds/nebula_prism.png"
+    },
+    "quantum_core": {
+      "title": "Quantum Core",
+      "palette": {
+        "title": "Quantum Core",
+        "subtitle": "LIVING HUD / REACTOR INTERFACE",
+        "bg": "#020306",
+        "sidebar": "#05070d",
+        "card": "#070b16",
+        "border": "#2fe6ff",
+        "track": "#101729",
+        "grid": "#1b2438",
+        "text": "#eef6ff",
+        "muted": "#8ea3c9",
+        "accent": "#2fe6ff",
+        "secondary": "#ff2bd6",
+        "light": "#7afcff",
+        "bloom": "#ff2bd6",
+        "shadow": "#000103",
+        "series": [
+          "#2fe6ff",
+          "#ff2bd6",
+          "#ffb22f",
+          "#7affa0",
+          "#9b7bff"
+        ]
+      },
+      "background": "backgrounds/quantum_core.png"
+    },
+    "crystal_atrium": {
+      "title": "Crystal Atrium",
+      "palette": {
+        "title": "Crystal Atrium",
+        "subtitle": "LIQUID GLASS / BLUE VIOLET",
+        "bg": "#080f26",
+        "sidebar": "#102347",
+        "card": "#182a48",
+        "border": "#b5d4ff",
+        "track": "#294569",
+        "grid": "#405779",
+        "text": "#f2f8ff",
+        "muted": "#c0cce4",
+        "accent": "#94dfff",
+        "secondary": "#baa7ff",
+        "light": "#dff7ff",
+        "bloom": "#8970db",
+        "shadow": "#0b1230",
+        "series": [
+          "#94dfff",
+          "#baa7ff",
+          "#cdeaff",
+          "#83b1df"
+        ]
+      },
+      "background": "backgrounds/crystal_atrium.png"
+    },
+    "liquid_silver": {
+      "title": "Liquid Silver",
+      "palette": {
+        "title": "Liquid Silver",
+        "subtitle": "SMOKED GLASS / SATIN SILVER",
+        "bg": "#080b10",
+        "sidebar": "#0d1219",
+        "card": "#151b23",
+        "border": "#73889c",
+        "track": "#2a3543",
+        "grid": "#2b3442",
+        "text": "#edf2f7",
+        "muted": "#afbdc9",
+        "accent": "#b9ccdc",
+        "secondary": "#e3edf5",
+        "light": "#657f97",
+        "bloom": "#34465b",
+        "shadow": "#101b27",
+        "series": [
+          "#b9ccdc",
+          "#e3edf5",
+          "#7b95aa",
+          "#a7bbcc"
+        ]
+      },
+      "background": "backgrounds/liquid_silver.png"
+    },
+    "crystal_glass": {
+      "title": "Crystal Glass",
+      "palette": {
+        "title": "Crystal Glass",
+        "subtitle": "LIQUID GLASS / BLUE VIOLET",
+        "bg": "#080f26",
+        "sidebar": "#102347",
+        "card": "#182a48",
+        "border": "#b5d4ff",
+        "track": "#294569",
+        "grid": "#405779",
+        "text": "#f2f8ff",
+        "muted": "#c0cce4",
+        "accent": "#94dfff",
+        "secondary": "#baa7ff",
+        "light": "#dff7ff",
+        "bloom": "#8970db",
+        "shadow": "#0b1230",
+        "series": [
+          "#94dfff",
+          "#baa7ff",
+          "#cdeaff",
+          "#83b1df"
+        ]
+      },
+      "background": "backgrounds/crystal_glass.png"
+    },
+    "crystal_atrium_original": {
+      "title": "Crystal Atrium · Original",
+      "palette": {
+        "title": "Crystal Atrium · Original",
+        "subtitle": "LIQUID GLASS / STATIC LIGHT",
+        "bg": "#050818",
+        "sidebar": "#0a1030",
+        "card": "#0e1536",
+        "border": "#a9bcff",
+        "track": "#16204a",
+        "grid": "#26336a",
+        "text": "#f5f8ff",
+        "muted": "#a9b6dc",
+        "accent": "#7fd6ff",
+        "secondary": "#ff7ad9",
+        "light": "#ffffff",
+        "bloom": "#ffc46b",
+        "shadow": "#02030a",
+        "series": [
+          "#7fd6ff",
+          "#ff7ad9",
+          "#ffc46b",
+          "#6bffd0",
+          "#b79bff"
+        ]
+      },
+      "background": "backgrounds/crystal_atrium.png"
+    }
+  }
+}
+

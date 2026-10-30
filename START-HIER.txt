@@ -1,0 +1,24 @@
+Vitalux Homeserver · 0.10.0 TESTPAKET
+
+Vollständiges Testpaket:
+https://github.com/PAAAUUULLOOOH/Homeserver-Dashboard/releases/tag/v0.10.0-test
+
+1. In einen neuen Ordner entpacken.
+2. Terminal in diesem Ordner öffnen.
+3. Ubuntu-/Debian-Desktop: bash START-APP.sh
+   Homeserver ohne Desktop: bash START-UBUNTU.sh
+4. Eigenes Passwort einrichten. Benutzername: admin
+5. Webmodus: http://127.0.0.1:8765 öffnen.
+
+Python, Qt/PySide6 und psutil sind für Linux x86_64 mitgeliefert.
+Bei Git-Checkouts wird die Laufzeit beim ersten Start vom Release nachgeladen.
+Docker muss auf dem Host bereits laufen. Prüfung: bash PRUEFEN.sh
+Keine Systeminstallation, kein Autostartdienst, kein Einbau in Vitalux.
+
+Gameserver installieren: Spielekatalog → Installieren.
+Container-Abbilder vorladen: Kachel → Vorladen.
+Medien einrichten: PAULFLIX → Einstellungen → Ordner auf dem Homeserver.
+
+Spiele und Container-Abbilder selbst sind nicht im ZIP enthalten.
+Die einzelnen Spiele wurden noch nicht vollständig auf deinem Host getestet.
+Vollständige Anleitung: README.md. Tatsächliche Prüfungen: TESTBERICHT.md.

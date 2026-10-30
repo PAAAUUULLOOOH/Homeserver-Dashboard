@@ -1,0 +1,219 @@
+{
+  "default_theme": "obsidian_gold",
+  "variants": {
+    "blue": {
+      "name": "Blue",
+      "accent": "#4f8cff",
+      "top": "#a0c1ff",
+      "mid": "#4f8cff",
+      "low": "#365da6",
+      "spec": "#e1ebff",
+      "secondary": "#4f8cff",
+      "fixed": false
+    },
+    "cyan": {
+      "name": "Cyan",
+      "accent": "#52d3ff",
+      "top": "#a2e7ff",
+      "mid": "#52d3ff",
+      "low": "#3888a6",
+      "spec": "#e2f8ff",
+      "secondary": "#52d3ff",
+      "fixed": false
+    },
+    "violet": {
+      "name": "Violet",
+      "accent": "#a78bfa",
+      "top": "#cfc0fc",
+      "mid": "#a78bfa",
+      "low": "#6c5ca3",
+      "spec": "#f0ebfe",
+      "secondary": "#a78bfa",
+      "fixed": false
+    },
+    "green": {
+      "name": "Green",
+      "accent": "#73ba25",
+      "top": "#b3da89",
+      "mid": "#73ba25",
+      "low": "#4c7921",
+      "spec": "#e7f3da",
+      "secondary": "#73ba25",
+      "fixed": false
+    },
+    "orange": {
+      "name": "Orange",
+      "accent": "#f59e0b",
+      "top": "#facb7b",
+      "mid": "#f59e0b",
+      "low": "#9c6811",
+      "spec": "#fdefd6",
+      "secondary": "#f59e0b",
+      "fixed": false
+    },
+    "yellow": {
+      "name": "Yellow",
+      "accent": "#facc15",
+      "top": "#fce381",
+      "mid": "#facc15",
+      "low": "#9f8417",
+      "spec": "#fef6d7",
+      "secondary": "#facc15",
+      "fixed": false
+    },
+    "red": {
+      "name": "Red",
+      "accent": "#ef4444",
+      "top": "#f69a9a",
+      "mid": "#ef4444",
+      "low": "#983134",
+      "spec": "#fcdfdf",
+      "secondary": "#ef4444",
+      "fixed": false
+    },
+    "pink": {
+      "name": "Pink",
+      "accent": "#f472b6",
+      "top": "#f9b3d8",
+      "mid": "#f472b6",
+      "low": "#9b4d7a",
+      "spec": "#fde7f3",
+      "secondary": "#f472b6",
+      "fixed": false
+    },
+    "gold": {
+      "name": "Gold",
+      "accent": "#e5bf73",
+      "top": "#ffe5a5",
+      "mid": "#dcb365",
+      "low": "#a3722d",
+      "spec": "#fff3ce",
+      "secondary": "#e5bf73",
+      "fixed": false
+    },
+    "obsidian-gold": {
+      "name": "Obsidian Gold",
+      "accent": "#e5c17b",
+      "top": "#ffe4aa",
+      "mid": "#d7ad61",
+      "low": "#936c32",
+      "spec": "#fff0c8",
+      "secondary": "#e5c17b",
+      "fixed": true
+    },
+    "eclipse-crystal": {
+      "name": "Eclipse Crystal",
+      "accent": "#efc68d",
+      "top": "#fff1d9",
+      "mid": "#d9b37f",
+      "low": "#80603d",
+      "spec": "#fff8e9",
+      "secondary": "#f4a86e",
+      "fixed": true
+    },
+    "nebula-prism": {
+      "name": "Nebula Prism",
+      "accent": "#5ef0ff",
+      "top": "#f2fdff",
+      "mid": "#8fe9ff",
+      "low": "#6a4fe0",
+      "spec": "#ffffff",
+      "secondary": "#ff6ad5",
+      "fixed": true
+    },
+    "quantum-core": {
+      "name": "Quantum Core",
+      "accent": "#2fe6ff",
+      "top": "#eafcff",
+      "mid": "#7a8bff",
+      "low": "#ff2bd6",
+      "spec": "#ffffff",
+      "secondary": "#ffb22f",
+      "fixed": true
+    },
+    "crystal-glass": {
+      "name": "Crystal Glass",
+      "accent": "#94dfff",
+      "top": "#e6f8ff",
+      "mid": "#98d9ff",
+      "low": "#7865b8",
+      "spec": "#ffffff",
+      "secondary": "#baa7ff",
+      "fixed": true,
+      "glass_material": true
+    }
+  },
+  "theme_assets": {
+    "obsidian_gold": "obsidian-gold",
+    "eclipse_crystal": "eclipse-crystal",
+    "nebula_prism": "nebula-prism",
+    "quantum_core": "quantum-core",
+    "crystal_glass": "crystal-glass"
+  },
+  "custom_accent_policy": "Preserve the outlined geometry; moderately richer tint for the circle logo only.",
+  "motion_seconds": {
+    "outer_rotation": 48,
+    "heartbeat": 2.4,
+    "wordmark_glint": 8,
+    "complete_cycle": 48
+  },
+  "geometry": {
+    "viewbox": [
+      0,
+      0,
+      1254,
+      1254
+    ],
+    "center": [
+      634,
+      608
+    ],
+    "waveform": [
+      [
+        318,
+        616
+      ],
+      [
+        439,
+        616
+      ],
+      [
+        532,
+        501
+      ],
+      [
+        642,
+        783
+      ],
+      [
+        777,
+        458
+      ],
+      [
+        849,
+        616
+      ],
+      [
+        939,
+        616
+      ]
+    ],
+    "wave_widths": {
+      "halo": 65,
+      "signal": 41,
+      "leading": 13
+    },
+    "wordmark_viewbox": [
+      0,
+      0,
+      1286,
+      214
+    ]
+  },
+  "custom_tint": {
+    "source_mix": 0.65,
+    "accent_mix": 0.35,
+    "circle_saturation_boost": 0.08,
+    "circle_saturation_cap": 238
+  }
+}

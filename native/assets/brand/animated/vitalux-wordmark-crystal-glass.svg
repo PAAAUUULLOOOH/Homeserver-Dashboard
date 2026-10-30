@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="93.19" viewBox="0 0 1286 214" role="img" aria-labelledby="brand-title brand-description" data-vitalux-brand-version="v0.9.5.9" data-motion="animated" data-material="glass">
+  <title id="brand-title">Vitalux wordmark — Crystal Glass</title>
+  <desc id="brand-description">Approved architectural uppercase VITALUX lettering, sculpted gold and smoked-glass facets; no font dependency.</desc>
+  <defs>
+    <linearGradient id="letter-metal" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="214">
+      <stop offset="0" stop-color="#e6f8ff" stop-opacity="0.9" />
+      <stop offset="0.15" stop-color="#daf3ff" stop-opacity="0.7333333333333334" />
+      <stop offset="0.36" stop-color="#98d9ff" stop-opacity="0.5666666666666667" />
+      <stop offset="0.49" stop-color="#ade1ff" stop-opacity="0.4" />
+      <stop offset="0.59" stop-color="#a1ddff" stop-opacity="0.5666666666666667" />
+      <stop offset="0.83" stop-color="#8697d7" stop-opacity="0.7333333333333334" />
+      <stop offset="1" stop-color="#7865b8" stop-opacity="0.9" />
+    </linearGradient>
+    <linearGradient id="letter-edge" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="214">
+      <stop offset="0" stop-color="#ffffff" />
+      <stop offset="0.4" stop-color="#98d9ff" />
+      <stop offset="1" stop-color="#7865b8" />
+    </linearGradient>
+    <linearGradient id="letter-glass" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="771.6" y2="214">
+      <stop offset="0" stop-color="#080b10" />
+      <stop offset="0.23" stop-color="#3c4149" />
+      <stop offset="0.49" stop-color="#101216" />
+      <stop offset="0.76" stop-color="#24262b" />
+      <stop offset="1" stop-color="#08090c" />
+    </linearGradient>
+    <linearGradient id="wordmark-sweep" gradientUnits="userSpaceOnUse" x1="-280" y1="0" x2="280" y2="128.4">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="0.2" stop-color="#ffffff" stop-opacity="0.025" />
+      <stop offset="0.42" stop-color="#ffffff" stop-opacity="0.16" />
+      <stop offset="0.51" stop-color="#ffffff" stop-opacity="0.4" />
+      <stop offset="0.62" stop-color="#ffffff" stop-opacity="0.18" />
+      <stop offset="0.85" stop-color="#ffffff" stop-opacity="0.025" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0" />
+      <animateTransform attributeName="gradientTransform" type="translate" values="-500 0;1786 0;1786 0" keyTimes="0;0.46;1" calcMode="spline" keySplines=".42 0 .58 1;0 0 1 1" dur="8s" repeatCount="indefinite" />
+    </linearGradient>
+  </defs>
+  <path d="M12 12H78L141 126L203 12H252L140 202H117Z M263 12H296V202H263Z M315 12H505L486 40H425V202H377V40H322Z M452 202L550 21Q566 -2 581 21L689 202H640L612 158H530L503 202Z M544 128H592L568 86Z M702 12H746V162Q746 180 768 180H861L879 202H737Q702 202 702 168Z M871 12H915V148Q915 180 952 180H965Q1004 180 1004 148V12H1048V148Q1048 202 963 202H947Q871 202 871 148Z M1063 12H1125L1166 78L1213 12H1271L1203 104L1272 202H1210L1165 137L1119 202H1060L1132 105Z" fill="#7865b8" fill-rule="evenodd" transform="translate(0 3)" />
+  <path id="wordmark-outline" d="M12 12H78L141 126L203 12H252L140 202H117Z M263 12H296V202H263Z M315 12H505L486 40H425V202H377V40H322Z M452 202L550 21Q566 -2 581 21L689 202H640L612 158H530L503 202Z M544 128H592L568 86Z M702 12H746V162Q746 180 768 180H861L879 202H737Q702 202 702 168Z M871 12H915V148Q915 180 952 180H965Q1004 180 1004 148V12H1048V148Q1048 202 963 202H947Q871 202 871 148Z M1063 12H1125L1166 78L1213 12H1271L1203 104L1272 202H1210L1165 137L1119 202H1060L1132 105Z" fill="url(#letter-metal)" stroke="url(#letter-edge)" stroke-width="0.65" stroke-linejoin="round" fill-rule="evenodd" />
+  <g id="wordmark-material">
+    <path d="M12 12H78L141 126L127 153Z" fill="url(#letter-glass)" stroke="url(#letter-edge)" stroke-width="0.5" fill-rule="evenodd" />
+    <path d="M203 12H252L140 202L128 181Z" fill="url(#letter-edge)" stroke="url(#letter-edge)" stroke-width="0.5" fill-rule="evenodd" />
+    <path d="M263 140L296 100V117L263 157Z" fill="url(#letter-glass)" stroke="url(#letter-edge)" stroke-width="0.5" fill-rule="evenodd" />
+    <path d="M287 12H296V100L287 109Z" fill="url(#letter-edge)" stroke="url(#letter-edge)" stroke-width="0.5" fill-rule="evenodd" />
+    <path d="M399 48H425V202H414V76Z" fill="url(#letter-glass)" stroke="url(#letter-edge)" stroke-width="0.5" fill-rule="evenodd" />
+    <path d="M322 17H497L484 35H326Z" fill="url(#letter-edge)" stroke="url(#letter-edge)" stroke-width="0.5" fill-rule="evenodd" />
+    <path d="M581 21L689 202H668L568 27Z" fill="url(#letter-glass)" stroke="url(#letter-edge)" stroke-width="0.5" fill-rule="evenodd" />
+    <path d="M550 21Q566 -2 581 21L570 27L503 202H489Z" fill="url(#letter-edge)" stroke="url(#letter-edge)" stroke-width="0.5" fill-rule="evenodd" />
+    <path d="M736 14H746V162Q746 180 768 180H861L879 202H865L751 184Q736 176 736 156Z" fill="url(#letter-glass)" stroke="url(#letter-edge)" stroke-width="0.5" fill-rule="evenodd" />
+    <path d="M905 14H915V148Q915 180 952 180H965Q1004 180 1004 148V12H1016V151Q1016 189 958 189Q905 189 905 148Z" fill="url(#letter-glass)" stroke="url(#letter-edge)" stroke-width="0.5" fill-rule="evenodd" />
+    <path d="M1213 12H1271L1203 104L1184 89Z" fill="url(#letter-glass)" stroke="url(#letter-edge)" stroke-width="0.5" fill-rule="evenodd" />
+    <path d="M1132 105L1165 137L1119 202H1060L1105 182Z" fill="url(#letter-glass)" stroke="url(#letter-edge)" stroke-width="0.5" fill-rule="evenodd" />
+    <path d="M1063 12H1125L1272 202H1254Z" fill="url(#letter-edge)" stroke="url(#letter-edge)" stroke-width="0.5" fill-rule="evenodd" />
+  </g>
+  <path d="M12 12H78L141 126L203 12H252L140 202H117Z M263 12H296V202H263Z M315 12H505L486 40H425V202H377V40H322Z M452 202L550 21Q566 -2 581 21L689 202H640L612 158H530L503 202Z M544 128H592L568 86Z M702 12H746V162Q746 180 768 180H861L879 202H737Q702 202 702 168Z M871 12H915V148Q915 180 952 180H965Q1004 180 1004 148V12H1048V148Q1048 202 963 202H947Q871 202 871 148Z M1063 12H1125L1166 78L1213 12H1271L1203 104L1272 202H1210L1165 137L1119 202H1060L1132 105Z" fill="none" stroke="url(#letter-edge)" stroke-width="0.85" stroke-linejoin="bevel" fill-rule="evenodd" />
+  <path id="wordmark-glint" d="M12 12H78L141 126L203 12H252L140 202H117Z M263 12H296V202H263Z M315 12H505L486 40H425V202H377V40H322Z M452 202L550 21Q566 -2 581 21L689 202H640L612 158H530L503 202Z M544 128H592L568 86Z M702 12H746V162Q746 180 768 180H861L879 202H737Q702 202 702 168Z M871 12H915V148Q915 180 952 180H965Q1004 180 1004 148V12H1048V148Q1048 202 963 202H947Q871 202 871 148Z M1063 12H1125L1166 78L1213 12H1271L1203 104L1272 202H1210L1165 137L1119 202H1060L1132 105Z" fill="url(#wordmark-sweep)" fill-rule="evenodd" opacity="0" data-period-seconds="8">
+    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.02;0.43;0.46;1" dur="8s" repeatCount="indefinite" />
+  </path>
+</svg>

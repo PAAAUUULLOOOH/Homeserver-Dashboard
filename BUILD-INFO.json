@@ -1,0 +1,16 @@
+{
+  "application": "Vitalux Homeserver",
+  "version": "0.10.0-test",
+  "upstream": "https://github.com/PAAAUUULLOOOH/Vitalux/tree/unstable",
+  "design_source_version": "0.9.6.4-unstable.14",
+  "dashboard_source": "Vitalux-Dashboard-PAULFLIX-v0.9.1.zip",
+  "target": "linux-x86_64",
+  "runtime": [
+    "Python 3.12.7",
+    "PySide6 6.12.0",
+    "psutil 7.2.2"
+  ],
+  "repository": "https://github.com/PAAAUUULLOOOH/Homeserver-Dashboard",
+  "release_tag": "v0.10.0-test",
+  "distribution": "github-release"
+}
