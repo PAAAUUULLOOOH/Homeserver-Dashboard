@@ -16,5 +16,6 @@ __pycache__/
 *.tar.gz
 !/downloads/*.zip
 !/portable-runtime/*.tar.xz
+!/licenses/source/*.tar.gz
 *.partial
 .DS_Store
